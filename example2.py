@@ -16,7 +16,7 @@ l.append(tk.Label(win,text="This button has an event bound by a command"))
 l.append(tk.Label(win,text="This button has an event bound by a bind"))
 
 b = []
-b.append(tk.Button(win,text="Click to play",command="playsound"))
+b.append(tk.Button(win,text="Click to play",command=playsound))
 b.append(tk.Button(win,text="Click to play"))
 b[1].bind("<Button>",playsound)
 
