@@ -24,6 +24,7 @@ def samnt(event):
 
 root = wm.Tk()
 root.attributes()
+root.resizable(False,False)
 root.geometry()
 root.title("function board")
 root.iconphoto(False,PhotoImage(file="img/icon.png"))
